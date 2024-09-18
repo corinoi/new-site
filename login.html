@@ -191,12 +191,7 @@ form button:hover {
         console.log('Email: ' + profile.getEmail());
     }
     </script>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-<script>
-  netlifyIdentity.init();
-</script>
-<button onclick="netlifyIdentity.open()">Login</button>
-<button onclick="netlifyIdentity.logout()">Logout</button>
+ 
 
 </head>
 <body>
@@ -206,6 +201,12 @@ form button:hover {
     </header>
     <main>
         <section>
+                <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  netlifyIdentity.init();
+</script>
+<button onclick="netlifyIdentity.open()">Login</button>
+<button onclick="netlifyIdentity.logout()">Logout</button>
            
         </section>
     </main>
